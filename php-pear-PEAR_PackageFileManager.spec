@@ -32,8 +32,8 @@ Features include:
 - reads in an existing package.xml file, and only changes the release/changelog
 - a plugin system for retrieving files in a directory. Currently two plugins
   exist, one for standard recursive directory content listing, and one that
-  reads the CVS/Entries files and generates a file listing based on the contents
-  of a checked out CVS repository
+  reads the CVS/Entries files and generates a file listing based on the
+  contents of a checked out CVS repository
 - incredibly flexible options for assigning install roles to files/directories
 - ability to ignore any file based on a * ? wildcard-enabled string(s)
 - ability to include only files that match a * ? wildcard-enabled string(s)

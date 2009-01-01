@@ -8,7 +8,7 @@
 Summary:	%{_pearname} - takes an existing package.xml file and updates it with a new filelist and changelog
 Name:		php-pear-%{_pearname}
 Version:	1.6.0
-Release:	%mkrel 1.a4.2
+Release:	%mkrel 1.a4.3
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}a4.tar.bz2

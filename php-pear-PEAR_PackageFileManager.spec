@@ -1,15 +1,15 @@
 %define		_class		PEAR
 %define		_subclass	PackageFileManager
-%define		_status		alpha
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 %define		_requires_exceptions pear(PEAR/PackageFile.php)\\|pear(PEAR/PackageFile/Generator/v1.php)
 
 Summary:	%{_pearname} - takes an existing package.xml file and updates it with a new filelist and changelog
 Name:		php-pear-%{_pearname}
-Version:	1.6.3
+Version:	1.7.0
 Release:	%mkrel 1
-License:	PHP License
+License:	New BSD License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/PEAR_PackageFileManager/

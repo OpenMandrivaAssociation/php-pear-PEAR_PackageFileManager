@@ -6,7 +6,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.7.0
-Release:	%mkrel 3
+Release:	%mkrel 4
 Summary:	Takes an existing package.xml file and updates it with a new filelist and changelog
 License:	New BSD License
 Group:		Development/PHP

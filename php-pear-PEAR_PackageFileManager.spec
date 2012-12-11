@@ -83,3 +83,82 @@ fi
 %doc %{upstream_name}-%{version}/examples
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
+
+
+%changelog
+* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.7.0-5mdv2012.0
++ Revision: 742178
+- fix major breakage by careless packager
+
+* Fri May 27 2011 Oden Eriksson <oeriksson@mandriva.com> 1.7.0-4
++ Revision: 679557
+- mass rebuild
+
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 1.7.0-3mdv2011.0
++ Revision: 613750
+- the mass rebuild of 2010.1 packages
+
+* Sat Nov 21 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.7.0-2mdv2010.1
++ Revision: 467948
+- spec cleanup
+- use pear installer
+- don't ship tests, even in documentation
+- own all directories
+- use rpm filetriggers starting from mandriva 2010.1
+
+* Mon Apr 20 2009 Raphaël Gertz <rapsys@mandriva.org> 1.7.0-1mdv2009.1
++ Revision: 368334
+- Update php pear PEAR_PackageFileManager to 1.7.0 version
+
+* Sun Mar 22 2009 Funda Wang <fwang@mandriva.org> 1.6.3-1mdv2009.1
++ Revision: 360149
+- New version 1.6.3
+
+* Thu Jan 01 2009 Oden Eriksson <oeriksson@mandriva.com> 1.6.0-1.a4.3mdv2009.1
++ Revision: 322577
+- rebuild
+
+* Thu Jul 17 2008 Oden Eriksson <oeriksson@mandriva.com> 1.6.0-1.a4.2mdv2009.0
++ Revision: 237044
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - fix description-line-too-long
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+
+* Sat Nov 11 2006 Oden Eriksson <oeriksson@mandriva.com> 1.6.0-1.a4.1mdv2007.0
++ Revision: 82505
+- Import php-pear-PEAR_PackageFileManager
+
+* Fri Feb 10 2006 Oden Eriksson <oeriksson@mandriva.com> 1.6.0-0.a4.2mdk
+- new group (Development/PHP)
+
+* Thu Dec 08 2005 Oden Eriksson <oeriksson@mandriva.com> 1.6.0-0.a4.1mdk
+- 1.6.0a4
+
+* Fri Aug 26 2005 Oden Eriksson <oeriksson@mandriva.com> 1.5.2-4mdk
+- rebuilt to fix auto deps
+
+* Wed Aug 10 2005 Oden Eriksson <oeriksson@mandriva.com> 1.5.2-3mdk
+- rebuilt to use new pear auto deps/reqs from pld
+
+* Sun Jul 31 2005 Oden Eriksson <oeriksson@mandriva.com> 1.5.2-2mdk
+- fix deps
+
+* Thu Jul 21 2005 Oden Eriksson <oeriksson@mandriva.com> 1.5.2-1mdk
+- 1.5.2
+
+* Thu Jul 21 2005 Oden Eriksson <oeriksson@mandriva.com> 1.5.1-3mdk
+- reworked the %%post and %%preun stuff, like in conectiva
+- fix deps
+
+* Wed Jul 20 2005 Oden Eriksson <oeriksson@mandriva.com> 1.5.1-2mdk
+- fix deps
+
+* Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 1.5.1-1mdk
+- initial Mandriva package (PLD import)
+

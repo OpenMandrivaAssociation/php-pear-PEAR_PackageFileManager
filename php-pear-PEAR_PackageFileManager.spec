@@ -5,7 +5,7 @@
 Name:		php-pear-%{upstream_name}
 Version:	1.7.0
 Release:	6
-Summary:	Takes an existing package.xml file and updates it with a new filelist and changelog
+Summary:	Takes an existing package.xml and updates it with a new filelist and changelog
 License:	New BSD License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/PEAR_PackageFileManager/
